@@ -1,6 +1,8 @@
 # Clinical Trial Screener — Biotech Trial Success-Probability Tool
 
-**Status:** v1 built. 33 real, live-pulled trials across oncology, cardiovascular, and neurology. See [SCOPE.md](SCOPE.md) for the full technical spec and phased roadmap.
+**Status:** v1 built and live. 33 real, live-pulled trials across oncology, cardiovascular, and neurology. See [SCOPE.md](SCOPE.md) for the full technical spec and phased roadmap.
+
+**Live:** https://bakul007.github.io/clinicaltrial-screener/
 
 ## Honest positioning
 
