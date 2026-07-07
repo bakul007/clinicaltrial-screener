@@ -1,17 +1,19 @@
 """
 Builds data.json from real ClinicalTrials.gov API pulls + a cited published base-rate table.
 Run: python3 build_dataset.py
-Requires: raw_oncology.json, raw_cardio.json, raw_neuro.json (already fetched via curl against
-the ClinicalTrials.gov v2 API — see README for the exact query URLs used).
+Fetches fresh trial data itself (no separate curl step needed) and saves the raw pulls to
+raw_*.json for reproducibility. This is the single script the GitHub Actions workflow
+(.github/workflows/refresh-data.yml) runs on a schedule to keep the live site current.
 """
 import json
 import urllib.request
+import urllib.parse
 from datetime import date, datetime
 
-AREA_FILES = {
-    "Oncology": "raw_oncology.json",
-    "Cardiovascular": "raw_cardio.json",
-    "Neurology": "raw_neuro.json",
+AREA_QUERIES = {
+    "Oncology": {"cond": "cancer", "pageSize": 15, "rawFile": "raw_oncology.json"},
+    "Cardiovascular": {"cond": "cardiovascular disease", "pageSize": 10, "rawFile": "raw_cardio.json"},
+    "Neurology": {"cond": "alzheimer disease", "pageSize": 8, "rawFile": "raw_neuro.json"},
 }
 
 # Real, cited published base rates. Sources:
@@ -84,11 +86,23 @@ def competitive_density(condition):
     return {"count": total, "score": 4, "note": f"Only {total} actively recruiting trials exist for this condition — relatively uncrowded."}
 
 
-import urllib.parse
+def fetch_studies(condition, page_size):
+    params = urllib.parse.urlencode({
+        "query.cond": condition,
+        "filter.overallStatus": "RECRUITING",
+        "filter.advanced": "AREA[Phase](PHASE1 OR PHASE2 OR PHASE3)",
+        "pageSize": page_size,
+        "fields": "NCTId,BriefTitle,OverallStatus,Phase,LeadSponsorName,Condition,EnrollmentCount,StartDate,PrimaryCompletionDate,StudyType",
+    })
+    url = f"https://clinicaltrials.gov/api/v2/studies?{params}"
+    with urllib.request.urlopen(url, timeout=30) as resp:
+        return json.loads(resp.read())
 
-def process_area(area_label, filename):
-    with open(filename) as f:
-        raw = json.load(f)
+
+def process_area(area_label, query_info):
+    raw = fetch_studies(query_info["cond"], query_info["pageSize"])
+    with open(query_info["rawFile"], "w") as f:
+        json.dump(raw, f, indent=2)
     trials = []
     for study in raw["studies"]:
         ps = study["protocolSection"]
@@ -148,9 +162,9 @@ def process_area(area_label, filename):
 
 def main():
     all_trials = []
-    for area, filename in AREA_FILES.items():
-        print(f"Processing {area}...")
-        all_trials.extend(process_area(area, filename))
+    for area, query_info in AREA_QUERIES.items():
+        print(f"Fetching and processing {area}...")
+        all_trials.extend(process_area(area, query_info))
 
     output = {
         "meta": {
@@ -168,7 +182,7 @@ def main():
                 {"key": "competitiveDensity", "label": "Competitive Density", "short": "Density", "description": "How many other actively recruiting trials exist for the same condition right now, queried live against ClinicalTrials.gov."},
             ]
         },
-        "therapeuticAreas": list(AREA_FILES.keys()),
+        "therapeuticAreas": list(AREA_QUERIES.keys()),
         "trials": all_trials,
     }
 

@@ -1,0 +1,35 @@
+name: Refresh trial data
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 6am UTC
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab, any time
+
+permissions:
+  contents: write # lets this workflow's auto-generated token push a commit back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch fresh trials and rebuild data.json
+        working-directory: data
+        run: python3 build_dataset.py
+
+      - name: Commit and push only if data actually changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes — trial data is unchanged since last check. Nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data.json data/raw_oncology.json data/raw_cardio.json data/raw_neuro.json
+            git commit -m "Auto-refresh trial data ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -1,10 +1,302 @@
-{"studies":[
-{"protocolSection":{"identificationModule":{"nctId":"NCT04390646","briefTitle":"GnRH Therapy on Cognition in Down Syndrome"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2020-08-27"},"primaryCompletionDateStruct":{"date":"2028-12"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Nelly Pitteloud"}},"conditionsModule":{"conditions":["Down Syndrome","Cognitive Decline","Alzheimer Disease, Early Onset","Olfaction Disorders"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2","PHASE3"],"enrollmentInfo":{"count":56}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT05641688","briefTitle":"[18F]PI-2620 Phase 3 Histopathological Study"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2022-12-01"},"primaryCompletionDateStruct":{"date":"2027-06"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Lantheus Biosciences Ltd."}},"conditionsModule":{"conditions":["Alzheimer Disease"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":200}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT04436081","briefTitle":"Effects of THC-Free CBD Oil on Agitation in Patients With Alzheimer's Disease"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2021-02-26"},"primaryCompletionDateStruct":{"date":"2024-03"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Eastern Virginia Medical School"}},"conditionsModule":{"conditions":["Alzheimer Disease","Dementia","Major Neurocognitive Disorder With Aggressive Behavior"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":40}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06362707","briefTitle":"Fasudil Trial for Treatment of Early Alzheimer's Disease (FEAD)"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2024-08-01"},"primaryCompletionDateStruct":{"date":"2028-01-01"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Helse Stavanger HF"}},"conditionsModule":{"conditions":["Cognitive Decline, Mild","Alzheimer Disease"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":200}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT07279714","briefTitle":"Fisetin in Mild Alzheimer's Disease"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2026-01-27"},"primaryCompletionDateStruct":{"date":"2026-11"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Sunnybrook Health Sciences Centre"}},"conditionsModule":{"conditions":["Alzheimer s Disease","Alzheimer Dementia","Alzheimer Dementia (AD)","Alzheimer Disease","Mild Cognitive Disorder","Neurocognitive Disorders, Mild","Neurocognitive Disorder"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":5}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT04396873","briefTitle":"PET Imaging of Cyclooxygenases in Neurodegenerative Brain Disease"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2021-08-17"},"primaryCompletionDateStruct":{"date":"2029-04-11"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"National Institute of Mental Health (NIMH)"}},"conditionsModule":{"conditions":["Parkinson's Disease","Dementia","Alzheimer's Disease","ALS","Mild Cognitive Impairment"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE1"],"enrollmentInfo":{"count":184}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06254469","briefTitle":"Visualizing Brain Proteinopathies Using [F-18]Flornaptitril-PET in the Prediction of Clinical Progression of Mild Cognitive Impairment With Either Suspected Chronic Traumatic Encephalopathy or Alzheimer's Disease"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-07-01"},"primaryCompletionDateStruct":{"date":"2028-06-30"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"CereMark Pharma, LLC"}},"conditionsModule":{"conditions":["Alzheimer Disease","Chronic Traumatic Encephalopathy"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":230}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT07058688","briefTitle":"A Study of NTRX-07 in Participants With Alzheimer's Disease"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-03-01"},"primaryCompletionDateStruct":{"date":"2025-12-31"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"NeuroTherapia, Inc."}},"conditionsModule":{"conditions":["Alzheimer Disease","Mild Cognitive Impairment"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":48}}}}
-],"nextPageToken":"ZVNj7o2Elu8o3lp3BMOkoarumpOQJJxuYPel3_IW"}
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04390646",
+          "briefTitle": "GnRH Therapy on Cognition in Down Syndrome"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2020-08-27"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-12"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Nelly Pitteloud"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Down Syndrome",
+            "Cognitive Decline",
+            "Alzheimer Disease, Early Onset",
+            "Olfaction Disorders"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 56
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07236190",
+          "briefTitle": "Biomarker-based Trial of NPC-1 for Alzheimer's Pathology"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-04-01"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-06"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Massachusetts General Hospital"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease",
+            "Mild Cognitive Impairment (MCI)",
+            "Subjective Cognitive Decline (SCD)"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 40
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04804241",
+          "briefTitle": "Senicapoc in Alzheimer's Disease"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-03-18"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-06"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of California, Davis"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Mild Cognitive Impairment",
+            "Alzheimer Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 55
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07218081",
+          "briefTitle": "A Trial to Test Intermittent Deep Brain Stimulation of Nucleus Basalis of Meynert to Treat Alzheimers."
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-02-01"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-11-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Augusta University"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Dementia (AD)"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 12
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06657768",
+          "briefTitle": "A Study of LY4006895 in Healthy Participants With Early Symptomatic Alzheimer's Disease (AD)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-10-29"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-07"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Eli Lilly and Company"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease",
+            "Healthy"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 128
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05413655",
+          "briefTitle": "A Study of Oral EX039 in Subjects with Mild Alzheimer's Disease"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-08-08"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-12-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Excelsior"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 120
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06254469",
+          "briefTitle": "Visualizing Brain Proteinopathies Using [F-18]Flornaptitril-PET in the Prediction of Clinical Progression of Mild Cognitive Impairment With Either Suspected Chronic Traumatic Encephalopathy or Alzheimer's Disease"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-07-01"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-06-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "CereMark Pharma, LLC"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease",
+            "Chronic Traumatic Encephalopathy"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 230
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06126224",
+          "briefTitle": "A Study to Assess Efficacy and Safety of KarXT for the Treatment of Psychosis Associated With Alzheimer's Disease (ADEPT-2)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-08-28"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-12-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Karuna Therapeutics, Inc., a Bristol Myers Squibb company"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Psychosis Associated With Alzheimer's Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 500
+          }
+        }
+      }
+    }
+  ],
+  "nextPageToken": "ZVNj7o2Elu8o3lp3Xd__vrbumpOQJJxtZPGn2PQW"
+}

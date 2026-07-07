@@ -1,12 +1,376 @@
-{"studies":[
-{"protocolSection":{"identificationModule":{"nctId":"NCT06854640","briefTitle":"A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-03-12"},"primaryCompletionDateStruct":{"date":"2026-12-25"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Bayer"}},"conditionsModule":{"conditions":["Sepsis","Coagulopathy"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE1"],"enrollmentInfo":{"count":36}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06851949","briefTitle":"Vsling™ I: Clinical Evaluation of the Vsling™ Device for Ventricular Repair in Patients With Heart Failure"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2024-11-15"},"primaryCompletionDateStruct":{"date":"2026-01"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Cardiac Success"}},"conditionsModule":{"conditions":["Heart Failure With Reduced Ejection Fraction"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":20}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06954155","briefTitle":"Tenecteplase Reperfusion Therapy in Acute Ischemic Cerebrovascular Events-BEYOND"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-05-30"},"primaryCompletionDateStruct":{"date":"2027-02-28"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Beijing Tiantan Hospital"}},"conditionsModule":{"conditions":["Stroke"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":330}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT07137832","briefTitle":"OPtimizing REperfusion by Intra-Arterial ThRomboLysis as Adjunct to Endovascular Treatment for Medium Vessel Occlusion"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-10-09"},"primaryCompletionDateStruct":{"date":"2028-12-31"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University"}},"conditionsModule":{"conditions":["Acute Ischemic Stroke"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":530}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT07231952","briefTitle":"A Study of Pirtobrutinib, Venetoclax, and Rituximab in People With Waldenström's Macroglobulinemia (WM)/Lymphoplasmacytic Lymphoma (LPL)"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-11-11"},"primaryCompletionDateStruct":{"date":"2028-04-11"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Memorial Sloan Kettering Cancer Center"}},"conditionsModule":{"conditions":["Waldenstrom Macroglobulinemia","Lymphoplasmacytic Lymphoma"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":40}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT03211793","briefTitle":"Mesenchymal Stromal Cells as Treatment for Digital Ulcers in Systemic Sclerosis"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2021-10-06"},"primaryCompletionDateStruct":{"date":"2026-11-01"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"UMC Utrecht"}},"conditionsModule":{"conditions":["Systemic Sclerosis","Digital Ulcer"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE1","PHASE2"],"enrollmentInfo":{"count":20}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06481891","briefTitle":"A Study to Evaluate the Efficacy and Safety of Sotagliflozin in Symptomatic Obstructive and Non-obstructive Hypertrophic Cardiomyopathy"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2024-09-24"},"primaryCompletionDateStruct":{"date":"2026-07"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Lexicon Pharmaceuticals"}},"conditionsModule":{"conditions":["Obstructive Cardiomyopathy, Hypertrophic","Non-obstructive Hypertrophic Cardiomyopathy"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":500}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT06588413","briefTitle":"Olanzapine 2.5 vs 5 mg in Quadruplet Nausea/Vomiting Prophylaxis Before High-Dose Melphalan"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2024-09-17"},"primaryCompletionDateStruct":{"date":"2027-10"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Augusta University"}},"conditionsModule":{"conditions":["Multiple Myeloma","Autologous Stem Cell Transplantation"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":172}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT05987124","briefTitle":"Defibrotide Dose-escalation for SOS Post-HSCT"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2024-03-20"},"primaryCompletionDateStruct":{"date":"2027-08-01"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"New York Medical College"}},"conditionsModule":{"conditions":["Sinusoidal Obstruction Syndrome","Veno-occlusive Disease"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE2"],"enrollmentInfo":{"count":20}}}},
-{"protocolSection":{"identificationModule":{"nctId":"NCT07187570","briefTitle":"RECURrence of Atrial Fibrillation After Cardioversion of Patients Randomized to Dapagliflozin or Usual Care"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2025-06-03"},"primaryCompletionDateStruct":{"date":"2027-12"}},"sponsorCollaboratorsModule":{"leadSponsor":{"name":"Region Stockholm"}},"conditionsModule":{"conditions":["Atrial Fibrillation (AF)"]},"designModule":{"studyType":"INTERVENTIONAL","phases":["PHASE3"],"enrollmentInfo":{"count":1600}}}}
-],"nextPageToken":"ZVNj7o2Elu8o3lp3BMOkoarumpOQJJxtYvim3Pg"}
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07518186",
+          "briefTitle": "A Study Comparing JNJ-79635322 and Teclistamab in Participants With Relapsed or Refractory Multiple Myeloma"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-05-31"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2029-04-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Janssen Research & Development, LLC"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Myeloma"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 700
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06613477",
+          "briefTitle": "PK/PD of Digoxin in Infants With SVHD"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-10-10"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-11-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Duke University"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Single-ventricle",
+            "Infant Conditions",
+            "Infant, Newborn, Diseases",
+            "Infant, Premature, Diseases"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 20
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07141251",
+          "briefTitle": "Clinical Trial of BAO-G Technique in Complex Aortic Aneurysm Endovascular Repair (BAO-G-02)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-01-01"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2030-12-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Peking Union Medical College Hospital"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Thoracoabdominal Aortic Aneurysm",
+            "Endovascular Repair",
+            "Complex Aortic Aneurysms"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 60
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07409246",
+          "briefTitle": "A Study to Evaluate Adverse Events, Change in Disease Activity, Tolerability, and How Intravenous ABBV-438 Moves Through the Body in Adult Participants With Multiple Myeloma (MM)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-02-27"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2031-11"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AbbVie"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Myeloma"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 127
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07453888",
+          "briefTitle": "Efficacy and Safety of Intranasal Cenegermin in Adult Participants With Non-Arteritic Anterior Ischemic Optic Neuropathy (NAION)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-06-30"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-09"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Domp\u00e9 Farmaceutici S.p.A"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Arteritic Anterior Ischemic Optic Neuropathy"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 272
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04240054",
+          "briefTitle": "Bortezomib, Isatuximab, Cyclophosphamide and Dexamethasone Induction in Transplant-Eligible Multiple Myeloma Patients With Renal Insufficiency"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2021-11-02"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2029-12-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Medical College of Wisconsin"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Myeloma"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 41
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06963320",
+          "briefTitle": "Phase II Clinical Study of H001 Capsule in the Prevention of Venous Thromboembolism After Total Knee Arthroplasty"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-01-20"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2025-06-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Livzon Pharmaceutical Group Inc."
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Circulatory Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 320
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03821623",
+          "briefTitle": "Nicotinamide Riboside for Treating Elevated Systolic Blood Pressure and Arterial Stiffness in Middle-aged and Older Adults"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2019-05-10"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2025-06-01"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Douglas Seals"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Hypertension",
+            "Aging"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 118
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05699005",
+          "briefTitle": "Individualized or Conventional Transfusion Strategies During Peripheral VA-ECMO"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2023-09-18"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-03-18"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University Hospital, Lille"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Cardiogenic Shock",
+            "Extracorporeal Membrane Oxygenation",
+            "Transfusion Related Complication",
+            "Anemia",
+            "Oxygen Delivery"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ],
+          "enrollmentInfo": {
+            "count": 236
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07687186",
+          "briefTitle": "Qishen Yiqi Dripping Pills in Treatment of Chronic Heart FailUre"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-06-22"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-06-22"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Tasly Pharmaceutical Group Co., Ltd"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Heart Failure"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 636
+          }
+        }
+      }
+    }
+  ],
+  "nextPageToken": "ZVNj7o2Elu8o3lp3Xd__vrbumpOQJJxsbfGl2fg"
+}
